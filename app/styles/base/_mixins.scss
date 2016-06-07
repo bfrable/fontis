@@ -1,0 +1,28 @@
+// responsive mq
+@mixin bp($point) {
+
+  $bp-mobile: "(max-width: 767px)";
+  $bp-tablet: "(max-width: 1024px)";
+  $bp-xlarge: "(max-width: 1599px)";
+  $bp-huge: "(min-width: 1600px)";
+
+  @if $point == mobile {
+    @media #{$bp-mobile}  { @content; }
+  }
+  @else if $point == tablet {
+    @media #{$bp-tablet} { @content; }
+  }
+  @else if $point == xlarge {
+    @media #{$bp-xlarge} { @content; }
+  }
+  @else if $point == huge {
+    @media #{$bp-huge} { @content; }
+  }
+
+}
+
+// rem font sizing
+@mixin rem($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
