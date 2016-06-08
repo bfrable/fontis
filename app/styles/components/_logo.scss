@@ -7,4 +7,8 @@
   img {
     width: 100%;
   }
+  @media #{$small-only} {
+    position: relative;
+    z-index: 4;
+  }
 }
