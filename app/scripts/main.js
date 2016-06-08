@@ -1,38 +1,38 @@
-(function() {
+(function($) {
     'use strict';
-    
+
     var helpers = {
-        mobile_nav: {
+        mobileNav: {
             toggle: function() {
                 var els = {
-                    open:  $('.js-toggle-open'),
+                    open: $('.js-toggle-open'),
                     close: $('.js-toggle-close')
                 };
 
                 els.open.on('click', function() {
                     $(this).addClass('nav-toggle--hidden');
                     els.close.removeClass('nav-toggle--hidden');
-                    helpers.mobile_nav.toggle_nav();
+                    helpers.mobileNav.toggleNav();
                 });
 
                 els.close.on('click', function() {
                     $(this).addClass('nav-toggle--hidden');
                     els.open.removeClass('nav-toggle--hidden');
-                    helpers.mobile_nav.toggle_nav();
+                    helpers.mobileNav.toggleNav();
                 });
             },
-            toggle_nav: function() {
+            toggleNav: function() {
                 var nav = $('.js-mobile-nav');
 
                 nav.toggleClass('js-nav-hidden');
             },
             init: function() {
-                helpers.mobile_nav.toggle();
+                helpers.mobileNav.toggle();
             }
         },
-        
+
         init: function() {
-            helpers.mobile_nav.init();
+            helpers.mobileNav.init();
         }
     };
 
