@@ -1,8 +1,23 @@
 .hero {
   h1 {
+    color: $white;
     font-size: rem($jumbo);
   }
+  p {
+    font-size: rem($large);
+    line-height: 34px;
+  }
+  h1, p {
+    margin-bottom: 25px;
+  }
   &--homepage {
+    background: transparent url("/images/hero-homepage.jpg") no-repeat 0 0;
+    background-size: cover;
     color: $white;
+    height: auto;
+    min-height: 640px;
+    padding: 60px 0 10px;
+    width: 100%;
   }
 }
+//.hero

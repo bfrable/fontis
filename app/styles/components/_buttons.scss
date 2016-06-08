@@ -1,9 +1,31 @@
 .button {
+  background-color: transparent;
+  border-radius: 4px;
+  display: inline-block;
   font-size: rem($medium);
-  &--blue {
-
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 15px 20px 15px;
+  i {
+    font-size: rem(30px);
+    line-height: 0;
+    padding: 0 0 0 5px;
+    position: relative;
+    top: 3px;
   }
-  &--white {
-
+  &--blue-border {
+    border: 2px solid $blue-dark;
+    color: $blue-dark;
+    &:hover {
+      color: $blue-dark;
+    }
+  }
+  &--white-border {
+    border: 2px solid $white;
+    color: $white;
+  }
+  &:hover, &:active, &:visited, &:focus {
+    background-color: transparent;
   }
 }

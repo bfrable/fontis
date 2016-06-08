@@ -2,20 +2,14 @@
   "name": "fontis",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "~3.3.5",
-    "bourbon": "^4.2.7"
-  },
-  "overrides": {
-    "bootstrap-sass": {
-      "main": [
-        "assets/stylesheets/_bootstrap.scss",
-        "assets/fonts/bootstrap/*",
-        "assets/javascripts/bootstrap.js"
-      ]
-    }
+    "bourbon": "^4.2.7",
+    "jquery": "^2.2.4",
+    "meyer-reset": "*",
+    "foundation": "^5.5.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "meyer-reset": "*"
   }
 }

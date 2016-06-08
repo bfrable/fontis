@@ -1,6 +1,34 @@
 $icon-font-path: '../fonts/';
 
 // bower:scss
-@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "bower_components/foundation/scss/foundation.scss";
 // endbower
+
+// reset
+@import "bower_components/meyer-reset/stylesheets/_meyer-reset.scss";
+
+// base
+@import 'base/vars';
+@import 'base/mixins';
+@import 'base/helpers';
+@import 'base/global';
+
+// layouts
+@import 'layouts/blocks';
+@import 'layouts/header';
+@import 'layouts/masthead';
+@import 'layouts/footer';
+
+// components
+@import 'components/buttons';
+@import 'components/call-to-action';
+@import 'components/cooler';
+@import 'components/forms';
+@import 'components/heroes';
+@import 'components/logo';
+@import 'components/navigation';
+@import 'components/socmed';
+@import 'components/topbar';
+
+

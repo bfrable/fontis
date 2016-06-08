@@ -26,3 +26,9 @@
   font-size: ($sizeValue * 10) + px;
   font-size: $sizeValue + rem;
 }
+
+// bg-image
+@mixin bgimg($path, $size: cover) {
+  background: transparent url($path) no-repeat 0 0;
+  background-size: cover;
+}

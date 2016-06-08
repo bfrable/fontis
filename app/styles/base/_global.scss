@@ -1,8 +1,23 @@
 body {
   color: $brown;
+  font-family: 'Open Sans', sans-serif;
   font-size: rem($medium);
+  font-weight: 100;
 }
 
 h2 {
   font-size: rem($large);
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.row {
+  max-width: rem(1080px);
+  &--full {
+    max-width: 100%;
+  }
 }

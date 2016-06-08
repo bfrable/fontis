@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
 
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
+
     <script src="https://use.fontawesome.com/66c0b1b661.js"></script>
     
   </head>
@@ -27,41 +29,153 @@
     <![endif]-->
 
     <div class="topbar">
-      <div class="container-fluid">
-
+      <div class="row">
+        <nav>
+          <ul class="nav nav--inline nav--with-separators">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Request a Quote</a></li>
+            <li class="tel"><a href="#">678-494-1981</a></li>
+          </ul>
+          <!-- /.nav nav--inline nav--with-separators -->
+        </nav>
       </div>
+      <!-- /.row-->
     </div>
-    <!-- /.navbar navbar-default -->
+    <!-- /.topbar -->
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+    <div class="hero hero--homepage">
+      <div class="masthead">
+        <div class="row collapse">
+          <div class="columns small-6">
+            <div class="logo">
+              <a href="/"><img src="images/logo.png" alt="Fonts" title="Fontis"></a>
+            </div>
+          </div>
+          <!-- /.columns small-6 -->
+          <div class="columns small-6">
+            <nav role="navigation">
+              <ul class="nav main-navigation nav--inline">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"><img src="images/georgia-grown-logo.png" alt="Georgia Brown"></a></li>
+              </ul>
+              <!-- /.nav .main-navigation nav--inline -->
+            </nav>
+          </div>
+          <!-- /.columns small-6 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.masthead -->
+      <div class="hero__content">
+        <div class="row collapse">
+          <div class="columns small-7">
+            <h1>A precious commodity. Delivered with care.</h1>
+            <p>Our purified water starts with only 100% natural spring water from the mountains of North Georgia. It is then filtered and processed by reverse osmosis.</p>
+            <a href="" class="button button--white-border">Shop Our Products <i class="fa fa-angle-right"></i></a>
+          </div>
+          <!-- /.columns small-6 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.content -->
+    </div>
+    <!-- /.hero hero--homepage -->
+
+    <div class="block block--gray">
+      <div class="row collapse parent">
+        <div class="columns small-7">
+          <h2>We deliver more than water. We deliver a promise. </h2>
+          <p>To some water is water. And coffee is just something you drink in the morning to wake up. But our customers in and around Atlanta demand more. </p>
+          <a href="#" class="button button--blue-border">See The Fontis Difference</a>
+        </div>
+        <!-- /.columns small-7 -->
+        <div class="cooler">
+          <img src="images/fontis-cooler.png" alt="Cooler">
+        </div>
+        <!-- /.cooler -->
+      </div>
+      <!-- /.row collapse parent -->
+    </div>
+    <!-- /.block block--gray -->
+    
+    <div class="cta cta__products">
+      <div class="row row--full">
+        <ul class="products">
+          <li class="columns small-4 products--bottled-water">
+            <div class="products__title">
+              Bottled Water
+            </div>
+            <div class="products__panel">
+              <a href="" class="button button--white-border">Shop Now <i class="fa fa-angle-right"></i></a>
+            </div>
+          </li>
+          <!-- /.columns small-4 -->
+          <li class="columns small-4 products--coffee-tea">
+            <div class="products__title">
+              Coffee &amp; Tea
+            </div>
+            <div class="products__panel">
+              <a href="" class="button button--white-border">Shop Now <i class="fa fa-angle-right"></i></a>
+            </div>
+          </li>
+          <!-- /.columns small-4 -->
+          <li class="columns small-4 products--water-filtration">
+            <div class="products__title">
+              Water Filtration
+            </div>
+            <div class="products__panel">
+              <a href="" class="button button--white-border">Shop Now <i class="fa fa-angle-right"></i></a>
+            </div>
+          </li>
+          <!-- /.columns small-4 -->
+        </ul>
+        <!-- /.services -->
+      </div>
+      <!-- /.row row--full -->
+    </div>
+    <!-- /.cta cta__services -->
+
+    <div class="block block--gray block--text-centered">
+      <div class="row">
+        <div class="columns small-12">
+          <h2>Experience the Fontis Difference.</h2>
+          <p>Shop today and have the fresh, delicious taste of <br>Fontis delivered to your home or office.</p>
+          <a href="" class="button button--blue-border">Shop Now</a>
+        </div>
+        <!-- /.columns small-12 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.block block--gray block--text-centered-->
+
+    <footer>
+      <div class="row collapse">
+        <div class="columns small-9">
+
+        </div>
+        <!-- /.columns small-9 -->
+        <div class="columns small-3">
+          
+        </div>
+        <!-- /.columns small-3 -->
+      </div>
+      <!-- /.row collapse -->
+    </footer>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/jquery-placeholder/jquery.placeholder.js"></script>
+    <script src="/bower_components/foundation/js/foundation.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     
     <!-- build:js scripts/plugins.js -->
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+
     <!-- endbuild -->
     
     <!-- build:js scripts/main.js -->

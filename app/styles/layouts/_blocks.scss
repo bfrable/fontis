@@ -1,8 +1,17 @@
 .block {
+  h2 {
+    font-weight: 600;
+  }
+  .row {
+    padding: 40px 0;
+  }
   &--gray {
     background: $gray;
   }
   &--white {
     background: $white;
+  }
+  &--text-centered {
+    text-align: center;
   }
 }

@@ -1,5 +1,19 @@
-.top-bar {
+.topbar {
+  background: rgba(0,0,0,0.5);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
   a {
+    color: $white;
     font-size: rem($small);
+    text-decoration: none;
+  }
+  .nav {
+    float: right;
+    padding: 10px 0 10px 10px;
+  }
+  .tel {
+    font-weight: 600;
   }
 }
