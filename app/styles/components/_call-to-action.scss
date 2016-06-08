@@ -2,7 +2,6 @@
   &__products {
     color: $white;
     text-align: center;
-
     .products {
       li {
         border: 10px solid $white;
@@ -77,6 +76,7 @@
       }
     }
 
+    // media queries
     @media #{$small-only} {
       .products {
         li {

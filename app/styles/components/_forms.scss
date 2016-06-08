@@ -16,6 +16,8 @@
     padding: 0;
     width: 40px;
   }
+
+  // media queries
   @media #{$medium-down} {
     margin: 0 auto;
     width: 205px;

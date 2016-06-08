@@ -20,6 +20,7 @@
     width: 100%;
   }
 
+  // media queries
   @media #{$medium-down} {
     h1 {
       font-size: $xlarge;
@@ -34,13 +35,11 @@
     min-height: 520px;
     padding-top: 30px;
     position: relative;
-
     h1 {
       font-size: rem($medium2);
       font-weight: 600;
       line-height: 1.5;
     }
-
     &.hero--homepage:after {
       @include linear-gradient(transparent, rgba(0,0,0,0.7));
       bottom: 0;
@@ -52,7 +51,6 @@
       width: 100%;
       z-index: 0;
     }
-
     .hero__content {
       position: absolute;
       bottom: 30px;

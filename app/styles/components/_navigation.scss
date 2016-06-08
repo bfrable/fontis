@@ -44,6 +44,8 @@ nav {
           }
         }
       }
+      
+      // media queries
       @media #{$medium-down} {
         li {
           border-left: 1px solid $white;
