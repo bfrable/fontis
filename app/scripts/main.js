@@ -1,3 +1,5 @@
+/*global jQuery */
+
 (function($) {
     'use strict';
 
@@ -37,4 +39,4 @@
     };
 
     helpers.init();
-})();
+})(jQuery);
