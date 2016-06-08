@@ -28,7 +28,7 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="topbar">
+    <div class="topbar hidden-for-medium-down min-width-large-only">
       <div class="row">
         <nav>
           <ul class="nav nav--inline nav--with-separators">
@@ -43,9 +43,9 @@
     </div>
     <!-- /.topbar -->
 
-    <div class="hero hero--homepage">
+    <div class="hero hero--homepage min-width-large-only">
       <div class="masthead">
-        <div class="row collapse">
+        <div class="row">
           <div class="columns small-6">
             <div class="logo">
               <a href="/"><img src="images/logo.png" alt="Fonts" title="Fontis"></a>
@@ -53,7 +53,7 @@
           </div>
           <!-- /.columns small-6 -->
           <div class="columns small-6">
-            <nav role="navigation">
+            <nav role="navigation" class="hidden-for-medium-down">
               <ul class="nav main-navigation nav--inline">
                 <li><a href="#">Services</a></li>
                 <li><a href="#">About</a></li>
@@ -70,10 +70,10 @@
       </div>
       <!-- /.masthead -->
       <div class="hero__content">
-        <div class="row collapse">
-          <div class="columns small-7">
+        <div class="row">
+          <div class="columns medium-6 large-7">
             <h1>A precious commodity. Delivered with care.</h1>
-            <p>Our purified water starts with only 100% natural spring water from the mountains of North Georgia. It is then filtered and processed by reverse osmosis.</p>
+            <p class="hidden-for-small-down">Our purified water starts with only 100% natural spring water from the mountains of North Georgia. It is then filtered and processed by reverse osmosis.</p>
             <a href="" class="button button--white-border">Shop Our Products <i class="fa fa-angle-right"></i></a>
           </div>
           <!-- /.columns small-6 -->
@@ -81,14 +81,18 @@
         <!-- /.row -->
       </div>
       <!-- /.content -->
+      <div class="cooler visible-for-small-only">
+        <img src="images/fontis-cooler.png" alt="Cooler">
+      </div>
+      <!-- /.cooler -->
     </div>
     <!-- /.hero hero--homepage -->
 
-    <div class="block block--gray">
-      <div class="row collapse parent">
-        <div class="columns small-7">
+    <div class="block block--gray hidden-for-small-down min-width-large-only">
+      <div class="row parent">
+        <div class="columns medium-6 large-7">
           <h2>We deliver more than water. We deliver a promise. </h2>
-          <p>To some water is water. And coffee is just something you drink in the morning to wake up. But our customers in and around Atlanta demand more. </p>
+          <p class="hidden-for-medium-down">To some water is water. And coffee is just something you drink in the morning to wake up. But our customers in and around Atlanta demand more. </p>
           <a href="#" class="button button--blue-border">See The Fontis Difference</a>
         </div>
         <!-- /.columns small-7 -->
@@ -101,10 +105,10 @@
     </div>
     <!-- /.block block--gray -->
     
-    <div class="cta cta__products">
+    <div class="cta cta__products min-width-large-only">
       <div class="row row--full">
         <ul class="products">
-          <li class="columns small-4 products--bottled-water">
+          <li class="columns small-12 medium-4 large-4 products--bottled-water">
             <div class="products__title">
               Bottled Water
             </div>
@@ -113,7 +117,7 @@
             </div>
           </li>
           <!-- /.columns small-4 -->
-          <li class="columns small-4 products--coffee-tea">
+          <li class="columns small-12 medium-4 large-4 products--coffee-tea">
             <div class="products__title">
               Coffee &amp; Tea
             </div>
@@ -122,7 +126,7 @@
             </div>
           </li>
           <!-- /.columns small-4 -->
-          <li class="columns small-4 products--water-filtration">
+          <li class="columns small-12 medium-4 large-4 products--water-filtration">
             <div class="products__title">
               Water Filtration
             </div>
@@ -138,11 +142,11 @@
     </div>
     <!-- /.cta cta__services -->
 
-    <div class="block block--gray block--text-centered">
+    <div class="block block--gray block--text-centered min-width-large-only">
       <div class="row">
         <div class="columns small-12">
           <h2>Experience the Fontis Difference.</h2>
-          <p>Shop today and have the fresh, delicious taste of <br>Fontis delivered to your home or office.</p>
+          <p>Shop today and have the fresh, delicious taste of Fontis delivered to your home or office.</p>
           <a href="" class="button button--blue-border">Shop Now</a>
         </div>
         <!-- /.columns small-12 -->
@@ -151,16 +155,80 @@
     </div>
     <!-- /.block block--gray block--text-centered-->
 
-    <footer>
+    <footer class="min-width-large-only">
       <div class="row collapse">
-        <div class="columns small-9">
-
+        <div class="columns small-12">
+          <div class="row collapse">
+            <div class="columns small-12">
+              <div class="logo">
+                <a href="/"><img src="images/logo.png" alt="Fonts" title="Fontis"></a>
+              </div>
+            </div>
+            <!-- /.columns small-12 -->
+            <div class="columns medium-12 large-2">
+              <p><strong>Fontis Water</strong>
+                <br>3929 Canton Road
+                <br>Marietta, GA 30066</p>
+              <a class="tel" href="">678-494-1981</a>
+              <a href="" class="button donate button--brown-border hidden-for-medium-down">Donation Request <i class="fa fa-angle-right"></i></a>
+            </div>
+            <!-- /.columns small-4 -->
+            <div class="columns medium-12 large-7 large-push-1">
+              <nav>
+                <ul class="nav footer-navigation nav--inline">
+                  <li><a href="">Products</a>
+                    <ul class="hidden-for-medium-down">
+                      <li><a href="">Bottled Water</a></li>
+                      <li><a href="">Coffee &amp; Tea</a></li>
+                      <li><a href="">Other Beverages</a></li>
+                      <li><a href="">Break Room Supplies</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">Services</a>
+                    <ul class="hidden-for-medium-down">
+                      <li><a href="">Commercial Delivery</a></li>
+                      <li><a href="">Home Delivery</a></li>
+                      <li><a href="">Private Label</a></li>
+                      <li><a href="">Water Filtration</a></li>
+                      <li><a href="">Break Room Supplies</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">About</a>
+                    <ul class="hidden-for-medium-down">
+                      <li><a href="">Our Water</a></li>
+                      <li><a href="">Our Staff</a></li>
+                      <li><a href="">Company Events</a></li>
+                      <li><a href="">Partners</a></li>
+                      <li><a href="">Media Resources</a></li>
+                      <li><a href="">Blog</a></li>
+                      <li><a href="">Locations</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- /.nav footer-navigation nav--inline -->
+              </nav>
+            </div>
+            <!-- /.columns small-8 -->
+            <div class="columns medium-12 large-3 large-push-1 connected">
+              <p><strong>Stay Connected</strong>
+              <br><span>Sign-Up for Our Newsletter</span></p>
+              <form class="newsletter" action="">
+                <div>
+                  <input type="text" class="newsletter__field" placeholder="Enter Your Email">
+                  <button type="submit" class="newsletter__submit"><i class="fa fa-send"></i></button>
+                </div>
+              </form>
+              <ul class="socmed">
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+              </ul>
+              <a href="" class="button donate button--brown-border visible-for-medium-down">Donation Request <i class="fa fa-angle-right"></i></a>
+            </div>
+            <!-- /.columns small-2 -->
+          </div>
         </div>
-        <!-- /.columns small-9 -->
-        <div class="columns small-3">
-          
-        </div>
-        <!-- /.columns small-3 -->
+        <!-- /.columns small-12 -->
       </div>
       <!-- /.row collapse -->
     </footer>

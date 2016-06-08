@@ -21,3 +21,9 @@ p {
     max-width: 100%;
   }
 }
+
+@media #{$large-only} {
+  .min-width-large-only {
+    min-width: 1350px;
+  }
+}

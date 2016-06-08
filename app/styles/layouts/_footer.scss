@@ -1,5 +1,49 @@
 footer {
   background-color: $brown;
+  color: $white;
   font-size: rem($small);
-  padding: 60px 60px 80px;
+  overflow: hidden;
+  padding: 60px 20px 80px;
+
+  a {
+    color: $white;
+  }
+
+  p {
+    font-size: $small;
+  }
+
+  strong {
+    font-weight: 400;
+  }
+
+  .logo {
+    margin-bottom: 35px;
+  }
+
+  .tel  {
+    color: $blue;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .donate {
+    font-size: $small;
+    margin: 30px 0 0;
+    padding: 0;
+    white-space: nowrap;
+  }
+
+  .connected {
+    > p {
+      margin-top: -8px;
+    }
+  }
+
+  @media #{$medium-down} {
+    text-align: center;
+    .logo {
+      margin: 0 auto 30px;
+    }
+  }
 }

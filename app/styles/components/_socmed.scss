@@ -1,0 +1,23 @@
+.socmed {
+  margin: 15px 0 0;
+  li {
+    display: inline-block;
+    font-size: 50px;
+    opacity: .3;
+    padding: 0 34px 0 0;
+    &:hover {
+      opacity: 1;
+    }
+    a {
+      &:hover, &:active, &:focus {
+        color: $white;
+      }
+    }
+  }
+  @media #{$medium-down} {
+    text-align: center;
+    li {
+      padding: 0 15px;
+    }
+  }
+}

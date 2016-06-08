@@ -1,8 +1,27 @@
 .cooler {
   position: absolute;
   bottom: -2px;
-  right: -115px;
+  right: 0;
+
   img {
     width: 100%;
+  }
+
+  @media #{$medium-down} {
+    img {
+      width: 90%
+    }
+  }
+
+  @media #{$small-only} {
+    position: absolute !important;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+
+    img {
+      width: 50%;
+    }
   }
 }

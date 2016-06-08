@@ -25,6 +25,10 @@
     border: 2px solid $white;
     color: $white;
   }
+  &--brown-border {
+    border: 2px solid $brown;
+    color: $white;
+  }
   &:hover, &:active, &:visited, &:focus {
     background-color: transparent;
   }

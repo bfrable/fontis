@@ -16,8 +16,52 @@
     color: $white;
     height: auto;
     min-height: 640px;
-    padding: 60px 0 10px;
+    padding: 60px 0 40px;
     width: 100%;
+  }
+
+  @media #{$medium-down} {
+    h1 {
+      font-size: $xlarge;
+    }
+    p {
+      font-size: $medium;
+    }
+  }
+
+  @media #{$small-only} {
+    text-align: center;
+    min-height: 520px;
+    padding-top: 30px;
+    position: relative;
+
+    h1 {
+      font-size: rem($medium2);
+      font-weight: 600;
+      line-height: 1.5;
+    }
+
+    &.hero--homepage:after {
+      @include linear-gradient(transparent, rgba(0,0,0,0.7));
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      z-index: 0;
+    }
+
+    .hero__content {
+      position: absolute;
+      bottom: 30px;
+      left: 0;
+      margin: 0 auto;
+      right: 0;
+      width: 300px;
+      z-index: 1;
+    }
   }
 }
 //.hero

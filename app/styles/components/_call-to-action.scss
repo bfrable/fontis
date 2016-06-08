@@ -2,6 +2,7 @@
   &__products {
     color: $white;
     text-align: center;
+
     .products {
       li {
         border: 10px solid $white;
@@ -72,6 +73,22 @@
         .products__panel {
           top: 0;
           opacity: 1;
+        }
+      }
+    }
+
+    @media #{$small-only} {
+      .products {
+        li {
+          height: 195px;
+          &:first-child {
+            border-bottom: 0;
+            border-right: 10px solid $white;
+          }
+          &:last-child {
+            border-left: 10px solid $white;
+            border-top: 0;
+          }
         }
       }
     }
