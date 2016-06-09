@@ -29,14 +29,14 @@
         }
       }
       &--bottled-water {
-        @include bgimg('/images/fontis-bottled-water.jpg');
+        @include bgimg('../images/fontis-bottled-water.jpg');
       }
       &--coffee-tea {
-        @include bgimg('/images/fontis-coffee.jpg');
+        @include bgimg('../images/fontis-coffee.jpg');
 
       }
       &--water-filtration {
-        @include bgimg('/images/fontis-filtration.jpg');
+        @include bgimg('../images/fontis-filtration.jpg');
       }
       &__title {
         bottom: 20px;
