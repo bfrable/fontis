@@ -23,10 +23,10 @@
   // media queries
   @media #{$medium-down} {
     h1 {
-      font-size: $xlarge;
+      font-size: rem($xlarge);
     }
     p {
-      font-size: $medium;
+      font-size: rem($medium);
     }
   }
 

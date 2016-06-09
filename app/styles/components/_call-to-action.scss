@@ -40,7 +40,7 @@
       }
       &__title {
         bottom: 20px;
-        font-size: $large;
+        font-size: rem($large);
         font-weight: 400;
         left: 0;
         letter-spacing: 1px;
