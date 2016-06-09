@@ -89,6 +89,14 @@
             border-left: 10px solid $white;
             border-top: 0;
           }
+          .button {
+            top: 50px;
+          }
+          .products__panel {
+            background: rgba($brown, 0.3);
+            opacity: 1;
+            top: 0;
+          }
         }
       }
     }
