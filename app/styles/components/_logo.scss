@@ -7,7 +7,7 @@
   img {
     width: 100%;
   }
-  @media #{$small-only} {
+  @media #{$medium-down} {
     position: relative;
     z-index: 4;
   }
